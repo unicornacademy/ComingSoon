@@ -1,0 +1,74 @@
+/*
+* Template Name: Mandi
+* Template Description: Mandi - Modern Responsive Coming Soon Template
+* Template URI: http://demo.webisir.com/mandi
+* Version: 1.2
+* Author: Webisir
+* Author URI: http://themeforest.net/user/webisir
+*/
+
+/*--------------------------------------------------------------
+    Custom CSS
+----------------------------------------------------------------
+
+    1.0 - Text color
+    2.0 - Main color
+    3.0 - Secondary color
+    4.0 - Header overlay color & opacity
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    1.0 - Text color (on white background)
+--------------------------------------------------------------*/
+
+html, input {
+    color: TEXT_COLOR;
+}
+
+/*-------------------------------------------------------------------------
+    2.0 - Main color (Dark)
+          headings, buttons, links, countdown, page loader back side, etc.
+---------------------------------------------------------------------------*/
+
+a, h1, h2, h3, h4, h5, h6, #copyright, #countdown {
+    color: PRIMARY_COLOR;
+}
+
+#social-links ul li a:hover, #contacts, input.submit, .back {
+   background: PRIMARY_COLOR;
+}
+
+/*---------------------------------------------------------------------------------------------
+    3.0 - Secondary color (Light)
+          headings icons, countdown seconds, page loader front side, typography elements, etc.
+-----------------------------------------------------------------------------------------------*/
+
+h1 i, h2 i, h3 i, h4 i, h5 i, h6 i, .count-el.seconds {
+    color: SECONDARY_COLOR;
+}
+
+.front {
+    background: SECONDARY_COLOR;
+}
+
+hr, q, blockquote, input.newsletter:focus {
+    border-color: SECONDARY_COLOR;
+}
+
+/*--------------------------------------------------------------
+    4.0 - Header overlay color & opacity
+--------------------------------------------------------------*/
+
+header:before {
+    background: HEADER_OVERLAY_COLOR;
+    opacity: HEADER_OVERLAY_OPACITY;
+}
+
+/*--------------------------------------------------------------
+    Other custom CSS here
+--------------------------------------------------------------*/
+
+
+
+
